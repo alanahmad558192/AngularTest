@@ -335,4 +335,7 @@
 
 <button class="subscribe" (click)="subscribe()" [disabled]="isSubscribed">{{ btnText }}</button>
 
+<!-- <button *ngIf="!isSubscribed" (click)="subscribe">Subscribe</button>
+<button *ngIf="isSubscribed" disabled>Subsribed</button> -->
+
 <router-outlet />
